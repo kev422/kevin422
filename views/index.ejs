@@ -3,9 +3,12 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type='text/javascript' href='/javascripts/index.js'></script>
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <div id="map">
+    </div>
   </body>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4JRIRtxO_hLdHRCE7_azKTYWsVu3mjOU&callback=initMap"></script>
 </html>
